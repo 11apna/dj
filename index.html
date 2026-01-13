@@ -1,0 +1,429 @@
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '831606059878247');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=831606059878247&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<style>
+    /* Ultra Minimal CSS for Maximum Speed */
+    .landing-page {
+        background: white;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        min-height: 100vh;
+        padding: 20px;
+        padding-bottom: 90px;
+        text-align: center;
+    }
+    
+    /* Header - Clean */
+    .page-header {
+        padding: 30px 20px 20px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    
+    /* Profile Section - Simple */
+    .profile-section {
+        padding: 30px 20px;
+    }
+    
+    .profile-image {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid black;
+        margin: 0 auto 25px;
+        display: block;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    
+    .main-title {
+        font-size: 28px;
+        font-weight: 900;
+        margin: 0 0 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: black;
+        line-height: 1.2;
+    }
+    
+    .sub-title {
+        font-size: 15px;
+        color: #666;
+        margin: 0 0 30px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 500;
+    }
+    
+    /* Black Button - Minimal */
+    .action-btn {
+        display: inline-block;
+        background: black;
+        color: white;
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding: 16px 45px;
+        border-radius: 12px;
+        text-decoration: none;
+        margin: 15px 0;
+        transition: all 0.3s ease;
+        border: 2px solid black;
+        letter-spacing: 1px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+    
+    .action-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        background: #111;
+    }
+    
+    /* Features - Simple List (No Cards) */
+    .features-list {
+        padding: 30px 20px;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    
+    .feature-item {
+        margin-bottom: 25px;
+        padding: 20px;
+        border-radius: 12px;
+        background: #f8f8f8;
+        border: 2px solid #000;
+        transition: all 0.3s ease;
+    }
+    
+    .feature-item:hover {
+        transform: translateY(-5px);
+        background: #fff;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    
+    .feature-title {
+        font-size: 18px;
+        font-weight: 800;
+        margin: 0 0 8px;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .feature-desc {
+        font-size: 14px;
+        color: #555;
+        line-height: 1.5;
+        margin: 0;
+        font-weight: 500;
+    }
+    
+    /* Success Badges - Minimal */
+    .stats-container {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 25px 0;
+        flex-wrap: wrap;
+    }
+    
+    .stat-badge {
+        background: black;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .stat-badge.highlight {
+        background: #111;
+    }
+    
+    /* Sports Icon */
+    .sport-icon {
+        font-size: 40px;
+        margin: 20px 0;
+        display: block;
+    }
+    
+    /* Countdown Timer - Simple */
+    .timer-section {
+        padding: 30px 20px;
+    }
+    
+    .timer-title {
+        font-size: 20px;
+        font-weight: 800;
+        color: black;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    .timer-container {
+        display: inline-flex;
+        gap: 15px;
+        background: #f8f8f8;
+        padding: 20px 30px;
+        border-radius: 12px;
+        border: 2px solid black;
+    }
+    
+    .timer-unit {
+        text-align: center;
+        min-width: 70px;
+    }
+    
+    .timer-value {
+        font-size: 32px;
+        font-weight: 900;
+        color: black;
+        font-family: monospace;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+    
+    .timer-label {
+        font-size: 11px;
+        color: #666;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+    }
+    
+    /* Bottom Navigation - Simple */
+    .bottom-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: black;
+        padding: 18px;
+        text-align: center;
+        z-index: 1000;
+        box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+    }
+    
+    .nav-button {
+        display: inline-block;
+        background: white;
+        color: black;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding: 15px 50px;
+        border-radius: 30px;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+        border: 2px solid white;
+    }
+    
+    .nav-button:hover {
+        background: black;
+        color: white;
+        transform: translateY(-2px);
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+        .main-title {
+            font-size: 24px;
+        }
+        
+        .action-btn {
+            font-size: 16px;
+            padding: 14px 35px;
+        }
+        
+        .profile-image {
+            width: 140px;
+            height: 140px;
+        }
+        
+        .feature-item {
+            padding: 18px;
+            margin-bottom: 18px;
+        }
+        
+        .feature-title {
+            font-size: 16px;
+        }
+        
+        .timer-container {
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 15px 20px;
+        }
+        
+        .timer-value {
+            font-size: 28px;
+        }
+        
+        .nav-button {
+            font-size: 15px;
+            padding: 14px 40px;
+            width: 90%;
+        }
+        
+        .stats-container {
+            gap: 10px;
+        }
+        
+        .stat-badge {
+            padding: 8px 16px;
+            font-size: 12px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .main-title {
+            font-size: 20px;
+        }
+        
+        .landing-page {
+            padding: 15px;
+            padding-bottom: 80px;
+        }
+        
+        .timer-unit {
+            min-width: 60px;
+        }
+        
+        .timer-value {
+            font-size: 24px;
+        }
+    }
+</style>
+
+<div class="landing-page">
+    <!-- Header -->
+    <div class="page-header">
+        <!-- Clean minimal header -->
+    </div>
+    
+    <!-- Profile Section -->
+    <div class="profile-section">
+        <img src="https://d1yei2z3i6k35z.cloudfront.net/13184094/6966838b21242_e453e01c-da5d-42c2-beee-b8d5ec770a74.jfif" 
+             alt="Kamal Thakur" 
+             class="profile-image"
+             onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgdmlld0JveD0iMCAwIDE2MCAxNjAiIGZpbGw9Im5vbmUiPjxjaXJjbGUgY3g9IjgwIiBjeT0iODAiIHI9Ijc4IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iNCIgZmlsbD0iI2ZmZiIvPjx0ZXh0IHg9IjgwIiB5PSI4MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiBmaWxsPSIjMDAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+Q1JJQ0tFVDwvdGV4dD48L3N2Zz4='">
+        
+        <h1 class="main-title">DJ Bhai™ [2022]</h1>
+        <p class="sub-title">PROFESSIONAL CRICKET PREDICTIONS</p>
+        
+        <a href="https://t.me/+OL7L_VDRekU4ZDQ9" class="action-btn" target="_blank">JOIN FREE NOW</a>
+        
+        <!-- Stats Badges -->
+        <div class="stats-container">
+            <div class="stat-badge highlight">95% ACCURACY</div>
+            <div class="stat-badge">DAILY TIPS</div>
+            <div class="stat-badge">LIVE UPDATES</div>
+        </div>
+        
+        <!-- Cricket Icon -->
+        <div class="sport-icon">🏏</div>
+    </div>
+    
+    <!-- Features List (No Cards) -->
+    <div class="features-list">
+        <div class="feature-item">
+            <h3 class="feature-title">DAILY MATCH PREDICTIONS</h3>
+            <p class="feature-desc">Get accurate predictions for IPL, International matches, T20, ODI and Test matches with detailed analysis</p>
+        </div>
+        
+        <div class="feature-item">
+            <h3 class="feature-title">WINNING STRATEGIES</h3>
+            <p class="feature-desc">Professional betting strategies, player performance insights, and match-winning opportunities</p>
+        </div>
+        
+        <div class="feature-item">
+            <h3 class="feature-title">REAL-TIME UPDATES</h3>
+            <p class="feature-desc">Live match updates, toss results, playing XI, and in-play betting tips delivered instantly</p>
+        </div>
+        
+        <div class="feature-item">
+            <h3 class="feature-title">EXPERT ANALYSIS</h3>
+            <p class="feature-desc">In-depth analysis of team form, pitch conditions, weather reports, and player statistics</p>
+        </div>
+    </div>
+    
+    <!-- Countdown Timer -->
+    <div class="timer-section">
+        <h2 class="timer-title">NEXT IPL MATCH IN</h2>
+        <div class="timer-container">
+            <div class="timer-unit">
+                <div class="timer-value" id="timer-hours">24</div>
+                <div class="timer-label">HOURS</div>
+            </div>
+            <div class="timer-unit">
+                <div class="timer-value" id="timer-minutes">00</div>
+                <div class="timer-label">MINUTES</div>
+            </div>
+            <div class="timer-unit">
+                <div class="timer-value" id="timer-seconds">08</div>
+                <div class="timer-label">SECONDS</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <a href="https://t.me/+OL7L_VDRekU4ZDQ9" class="nav-button" target="_blank">Join Telegram Channel</a>
+    </div>
+</div>
+
+<script>
+    // Ultra Simple Countdown Timer
+    (function() {
+        var hours = 24;
+        var minutes = 0;
+        var seconds = 8;
+        
+        function updateTimer() {
+            seconds--;
+            
+            if (seconds < 0) {
+                seconds = 59;
+                minutes--;
+                
+                if (minutes < 0) {
+                    minutes = 59;
+                    hours--;
+                    
+                    if (hours < 0) {
+                        hours = 24;
+                        minutes = 0;
+                        seconds = 8;
+                    }
+                }
+            }
+            
+            // Update display
+            document.getElementById('timer-hours').textContent = hours < 10 ? '0' + hours : hours;
+            document.getElementById('timer-minutes').textContent = minutes < 10 ? '0' + minutes : minutes;
+            document.getElementById('timer-seconds').textContent = seconds < 10 ? '0' + seconds : seconds;
+        }
+        
+        // Update every second
+        setInterval(updateTimer, 1000);
+    })();
+</script>
