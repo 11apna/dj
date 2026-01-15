@@ -1,474 +1,510 @@
-/* Ultra Minimal CSS for Maximum Speed - MOBILE OPTIMIZED */
-<style>.landing-page {
-    background: white;
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    max-width: 100%;
-    margin: 0 auto;
-    min-height: 100vh;
-    padding: 0;
-    padding-bottom: 80px;
-    text-align: center;
-    overflow-x: hidden;
-}
-
-/* Header - Clean */
-.page-header {
-    padding: 15px 15px 10px;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-/* Profile Section - Mobile Optimized */
-.profile-section {
-    padding: 20px 15px;
-}
-
-.profile-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid black;
-    margin: 0 auto 20px;
-    display: block;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.main-title {
-    font-size: 20px;
-    font-weight: 900;
-    margin: 0 0 8px;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    color: black;
-    line-height: 1.2;
-    padding: 0 10px;
-}
-
-.sub-title {
-    font-size: 13px;
-    color: #666;
-    margin: 0 0 20px;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    font-weight: 500;
-    padding: 0 10px;
-}
-
-/* Black Button - Mobile Optimized */
-.action-btn {
-    display: inline-block;
-    background: black;
-    color: white;
-    font-size: 16px;
-    font-weight: 800;
-    text-transform: uppercase;
-    padding: 16px 35px;
-    border-radius: 12px;
-    text-decoration: none;
-    margin: 15px 0;
-    transition: all 0.3s ease;
-    border: 2px solid black;
-    letter-spacing: 0.8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-    width: 85%;
-    max-width: 280px;
-}
-
-.action-btn:active {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-    background: #111;
-}
-
-/* Features - Mobile Optimized */
-.features-list {
-    padding: 20px 15px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.feature-item {
-    margin-bottom: 15px;
-    padding: 18px 15px;
-    border-radius: 10px;
-    background: #f8f8f8;
-    border: 2px solid #000;
-    transition: all 0.3s ease;
-    text-align: left;
-}
-
-.feature-item:active {
-    transform: translateY(-3px);
-    background: #fff;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-}
-
-.feature-title {
-    font-size: 16px;
-    font-weight: 800;
-    margin: 0 0 8px;
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    line-height: 1.3;
-}
-
-.feature-desc {
-    font-size: 13px;
-    color: #555;
-    line-height: 1.5;
-    margin: 0;
-    font-weight: 500;
-}
-
-/* Success Badges - Mobile Stacked */
-.stats-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin: 20px 0;
-    align-items: center;
-    padding: 0 20px;
-}
-
-.stat-badge {
-    background: black;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 50px;
-    font-weight: 700;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    width: 100%;
-    max-width: 250px;
-}
-
-.stat-badge.highlight {
-    background: #111;
-}
-
-/* Sports Icon */
-.sport-icon {
-    font-size: 36px;
-    margin: 15px 0;
-    display: block;
-}
-
-/* Countdown Timer - Mobile Optimized */
-.timer-section {
-    padding: 25px 15px;
-}
-
-.timer-title {
-    font-size: 18px;
-    font-weight: 800;
-    color: black;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    padding: 0 10px;
-}
-
-.timer-container {
-    display: flex;
-    gap: 10px;
-    background: #f8f8f8;
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid black;
-    justify-content: center;
-    margin: 0 15px;
-}
-
-.timer-unit {
-    text-align: center;
-    flex: 1;
-    min-width: 0;
-}
-
-.timer-value {
-    font-size: 28px;
-    font-weight: 900;
-    color: black;
-    font-family: monospace;
-    line-height: 1;
-    margin-bottom: 4px;
-}
-
-.timer-label {
-    font-size: 10px;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    font-weight: 600;
-}
-
-/* Bottom Navigation - Mobile Optimized */
-.bottom-nav {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: black;
-    padding: 15px;
-    text-align: center;
-    z-index: 1000;
-    box-shadow: 0 -3px 15px rgba(0,0,0,0.2);
-}
-
-.nav-button {
-    display: block;
-    background: white;
-    color: black;
-    font-size: 15px;
-    font-weight: 800;
-    text-transform: uppercase;
-    padding: 14px 20px;
-    border-radius: 30px;
-    text-decoration: none;
-    letter-spacing: 0.8px;
-    transition: all 0.3s ease;
-    border: 2px solid white;
-    width: 100%;
-    max-width: 320px;
-    margin: 0 auto;
-}
-
-.nav-button:active {
-    background: black;
-    color: white;
-    transform: translateY(-2px);
-}
-
-/* Mobile Responsive Enhancements */
-@media (max-width: 480px) {
-    .main-title {
-        font-size: 18px;
-    }
-    
-    .profile-image {
-        width: 110px;
-        height: 110px;
-    }
-    
-    .action-btn {
-        font-size: 15px;
-        padding: 15px 30px;
-    }
-    
-    .feature-item {
-        padding: 16px 14px;
-        margin-bottom: 12px;
-    }
-    
-    .feature-title {
-        font-size: 15px;
-    }
-    
-    .feature-desc {
-        font-size: 12.5px;
-    }
-    
-    .timer-value {
-        font-size: 24px;
-    }
-    
-    .timer-container {
-        gap: 8px;
-        padding: 12px;
-    }
-    
-    .nav-button {
-        font-size: 14px;
-        padding: 13px 18px;
-    }
-    
-    .timer-label {
-        font-size: 9px;
-        letter-spacing: 1px;
-    }
-}
-
-@media (max-width: 360px) {
-    .main-title {
-        font-size: 16px;
-    }
-    
-    .sub-title {
-        font-size: 12px;
-    }
-    
-    .action-btn {
-        font-size: 14px;
-        padding: 14px 25px;
-    }
-    
-    .profile-image {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .timer-value {
-        font-size: 22px;
-    }
-    
-    .timer-title {
-        font-size: 16px;
-    }
-}
-
-/* iPhone Notch & Safe Area Support */
-@supports (padding: max(0px)) {
-    .landing-page {
-        padding-left: max(15px, env(safe-area-inset-left));
-        padding-right: max(15px, env(safe-area-inset-right));
-        padding-bottom: max(80px, env(safe-area-inset-bottom) + 80px);
-    }
-    
-    .bottom-nav {
-        padding-bottom: max(15px, env(safe-area-inset-bottom));
-    }
-}
-
-/* Touch-friendly tap targets */
-.action-btn,
-.nav-button,
-.feature-item {
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-}
-
-/* Prevent text selection on interactive elements */
-.action-btn,
-.nav-button {
-    user-select: none;
-    -webkit-user-select: none;
-}
-
-/* Smooth scrolling for mobile */
-html {
-    scroll-behavior: smooth;
-}
-
-/* Optimize for mobile performance */
-* {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-</style>
-
-<div class="landing-page">
-    <!-- Header -->
-    <div class="page-header">
-        <!-- Clean minimal header -->
-    </div>
-    
-    <!-- Profile Section -->
-    <div class="profile-section">
-        <img src="https://d1yei2z3i6k35z.cloudfront.net/13184094/6966838b21242_e453e01c-da5d-42c2-beee-b8d5ec770a74.jfif" 
-             alt="Kamal Thakur" 
-             class="profile-image"
-             onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgdmlld0JveD0iMCAwIDE2MCAxNjAiIGZpbGw9Im5vbmUiPjxjaXJjbGUgY3g9IjgwIiBjeT0iODAiIHI9Ijc4IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iNCIgZmlsbD0iI2ZmZiIvPjx0ZXh0IHg9IjgwIiB5PSI4MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiBmaWxsPSIjMDAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+Q1JJQ0tFVDwvdGV4dD48L3N2Zz4='">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Bhai™ - Cricket Predictions</title>
+    <style>
+        /* Reset & Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         
-        <h1 class="main-title">DJ Bhai™ [2022]</h1>
-        <p class="sub-title">PROFESSIONAL CRICKET PREDICTIONS</p>
+        body {
+            background: white;
+            color: #111;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.4;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
         
-        <a href="https://t.me/+OL7L_VDRekU4ZDQ9" class="action-btn" target="_blank">JOIN FREE NOW</a>
+        /* Container */
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px 15px 100px;
+            min-height: 100vh;
+        }
         
-        <!-- Stats Badges -->
-        <div class="stats-container">
-            <div class="stat-badge highlight">95% ACCURACY</div>
-            <div class="stat-badge">DAILY TIPS</div>
-            <div class="stat-badge">LIVE UPDATES</div>
-        </div>
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 10px 0 20px;
+        }
         
-        <!-- Cricket Icon -->
-        <div class="sport-icon">🏏</div>
-    </div>
-    
-    <!-- Features List (No Cards) -->
-    <div class="features-list">
-        <div class="feature-item">
-            <h3 class="feature-title">DAILY MATCH PREDICTIONS</h3>
-            <p class="feature-desc">Get accurate predictions for IPL, International matches, T20, ODI and Test matches with detailed analysis</p>
-        </div>
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #000;
+            margin: 0 auto 15px;
+            display: block;
+        }
         
-        <div class="feature-item">
-            <h3 class="feature-title">WINNING STRATEGIES</h3>
-            <p class="feature-desc">Professional betting strategies, player performance insights, and match-winning opportunities</p>
-        </div>
+        .title {
+            font-size: 22px;
+            font-weight: 800;
+            color: #000;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
         
-        <div class="feature-item">
-            <h3 class="feature-title">REAL-TIME UPDATES</h3>
-            <p class="feature-desc">Live match updates, toss results, playing XI, and in-play betting tips delivered instantly</p>
-        </div>
+        .subtitle {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
         
-        <div class="feature-item">
-            <h3 class="feature-title">EXPERT ANALYSIS</h3>
-            <p class="feature-desc">In-depth analysis of team form, pitch conditions, weather reports, and player statistics</p>
-        </div>
-    </div>
-    
-    <!-- Countdown Timer -->
-    <div class="timer-section">
-        <h2 class="timer-title">NEXT IPL MATCH IN</h2>
-        <div class="timer-container">
-            <div class="timer-unit">
-                <div class="timer-value" id="timer-hours">24</div>
-                <div class="timer-label">HOURS</div>
-            </div>
-            <div class="timer-unit">
-                <div class="timer-value" id="timer-minutes">00</div>
-                <div class="timer-label">MINUTES</div>
-            </div>
-            <div class="timer-unit">
-                <div class="timer-value" id="timer-seconds">08</div>
-                <div class="timer-label">SECONDS</div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Bottom Navigation -->
-    <div class="bottom-nav">
-        <a href="https://t.me/+OL7L_VDRekU4ZDQ9" class="nav-button" target="_blank">Join Telegram Channel</a>
-    </div>
-</div>
-
-<script>
-    // Ultra Simple Countdown Timer
-    (function() {
-        var hours = 24;
-        var minutes = 0;
-        var seconds = 8;
+        /* Main Button */
+        .main-btn {
+            display: block;
+            background: #000;
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 14px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 20px auto;
+            width: 85%;
+            max-width: 280px;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 1px solid #000;
+            position: relative;
+            overflow: hidden;
+        }
         
-        function updateTimer() {
-            seconds--;
+        .main-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+        }
+        
+        .main-btn:active {
+            transform: translateY(0);
+        }
+        
+        /* Button animation effect */
+        .main-btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 5px;
+            height: 5px;
+            background: rgba(255,255,255,0.5);
+            opacity: 0;
+            border-radius: 100%;
+            transform: scale(1, 1) translate(-50%);
+            transform-origin: 50% 50%;
+        }
+        
+        .main-btn:focus:not(:active)::after {
+            animation: ripple 1s ease-out;
+        }
+        
+        @keyframes ripple {
+            0% {
+                transform: scale(0, 0);
+                opacity: 0.5;
+            }
+            100% {
+                transform: scale(20, 20);
+                opacity: 0;
+            }
+        }
+        
+        /* Stats */
+        .stats {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin: 25px 0 30px;
+            padding: 0 10px;
+        }
+        
+        .stat-item {
+            background: #f5f5f5;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #333;
+            border: 1px solid #eee;
+        }
+        
+        .stat-item.highlight {
+            background: #000;
+            color: white;
+        }
+        
+        /* Icon */
+        .sport-icon {
+            font-size: 32px;
+            text-align: center;
+            margin: 15px 0 25px;
+            opacity: 0.9;
+        }
+        
+        /* Features */
+        .features {
+            padding: 0 5px;
+        }
+        
+        .feature {
+            background: #fafafa;
+            padding: 18px;
+            margin-bottom: 12px;
+            border-radius: 10px;
+            text-align: left;
+            border-left: 3px solid #000;
+            transition: transform 0.2s ease;
+        }
+        
+        .feature:hover {
+            transform: translateX(2px);
+        }
+        
+        .feature-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 6px;
+        }
+        
+        .feature-desc {
+            font-size: 13px;
+            color: #555;
+            line-height: 1.5;
+        }
+        
+        /* Timer */
+        .timer-section {
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .timer-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 15px;
+        }
+        
+        .timer {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .timer-box {
+            background: white;
+            padding: 10px 0;
+            border-radius: 8px;
+            min-width: 55px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .timer-value {
+            font-size: 24px;
+            font-weight: 800;
+            color: #000;
+            font-family: monospace;
+        }
+        
+        .timer-label {
+            font-size: 10px;
+            color: #777;
+            margin-top: 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* Curved Bottom Bar */
+        .bottom-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #000;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            padding: 20px 20px 25px;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        
+        .bottom-bar::before {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 4px;
+            background: rgba(255,255,255,0.3);
+            border-radius: 2px;
+        }
+        
+        .telegram-btn {
+            display: block;
+            background: white;
+            color: #000;
+            font-size: 15px;
+            font-weight: 700;
+            padding: 14px;
+            border-radius: 10px;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 5px;
+        }
+        
+        .telegram-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        /* Responsive */
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px 12px 90px;
+            }
             
-            if (seconds < 0) {
-                seconds = 59;
-                minutes--;
+            .title {
+                font-size: 20px;
+            }
+            
+            .profile-img {
+                width: 90px;
+                height: 90px;
+            }
+            
+            .main-btn {
+                width: 90%;
+                font-size: 15px;
+                padding: 13px 25px;
+            }
+            
+            .timer-box {
+                min-width: 50px;
+            }
+            
+            .timer-value {
+                font-size: 22px;
+            }
+            
+            .feature {
+                padding: 16px;
+            }
+        }
+        
+        @media (max-width: 350px) {
+            .timer {
+                gap: 10px;
+            }
+            
+            .timer-box {
+                min-width: 45px;
+            }
+            
+            .main-btn {
+                width: 95%;
+            }
+        }
+        
+        /* Safe area for iPhone */
+        @supports (padding: max(0px)) {
+            .container {
+                padding-bottom: max(100px, env(safe-area-inset-bottom) + 100px);
+            }
+            
+            .bottom-bar {
+                padding-bottom: max(25px, env(safe-area-inset-bottom) + 15px);
+            }
+        }
+        
+        /* Simple animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .feature, .timer-section, .main-btn {
+            animation: fadeIn 0.5s ease forwards;
+        }
+        
+        .feature:nth-child(2) { animation-delay: 0.1s; }
+        .feature:nth-child(3) { animation-delay: 0.2s; }
+        .feature:nth-child(4) { animation-delay: 0.3s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <img src="https://d1yei2z3i6k35z.cloudfront.net/13184094/6966838b21242_e453e01c-da5d-42c2-beee-b8d5ec770a74.jfif" 
+                 alt="DJ Bhai"
+                 class="profile-img"
+                 onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiPjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjQ4IiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0iI2ZmZiIvPjx0ZXh0IHg9IjUwIiB5PSI1MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjMDAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+REogQmhhaTwvdGV4dD48L3N2Zz4='">
+            
+            <h1 class="title">DJ Bhai™ [2022]</h1>
+            <p class="subtitle">Professional Cricket Predictions</p>
+            
+            <a href="https://t.me/+OL7L_VDRekU4ZDQ9" class="main-btn" target="_blank">
+                Join Free Now
+            </a>
+        </div>
+        
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat-item highlight">95% Accuracy</div>
+            <div class="stat-item">Daily Tips</div>
+            <div class="stat-item">Live Updates</div>
+        </div>
+        
+        <!-- Sport Icon -->
+        <div class="sport-icon">🏏</div>
+        
+        <!-- Features -->
+        <div class="features">
+            <div class="feature">
+                <div class="feature-title">Daily Match Predictions</div>
+                <div class="feature-desc">Accurate predictions for IPL, International matches with detailed analysis</div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-title">Winning Strategies</div>
+                <div class="feature-desc">Professional betting strategies and match-winning opportunities</div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-title">Real-time Updates</div>
+                <div class="feature-desc">Live match updates, toss results, and in-play betting tips</div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-title">Expert Analysis</div>
+                <div class="feature-desc">Team form, pitch conditions, weather reports, player statistics</div>
+            </div>
+        </div>
+        
+        <!-- Timer -->
+        <div class="timer-section">
+            <div class="timer-title">Next IPL Match In</div>
+            <div class="timer">
+                <div class="timer-box">
+                    <div class="timer-value" id="hours">24</div>
+                    <div class="timer-label">Hours</div>
+                </div>
+                <div class="timer-box">
+                    <div class="timer-value" id="minutes">00</div>
+                    <div class="timer-label">Minutes</div>
+                </div>
+                <div class="timer-box">
+                    <div class="timer-value" id="seconds">08</div>
+                    <div class="timer-label">Seconds</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Curved Bottom Bar -->
+    <div class="bottom-bar">
+        <a href="https://t.me/+OL7L_VDRekU4ZDQ9" class="telegram-btn" target="_blank">
+            Join Telegram Channel
+        </a>
+    </div>
+    
+    <script>
+        // Simple Countdown Timer
+        function updateTimer() {
+            let hours = document.getElementById('hours');
+            let minutes = document.getElementById('minutes');
+            let seconds = document.getElementById('seconds');
+            
+            let h = parseInt(hours.textContent);
+            let m = parseInt(minutes.textContent);
+            let s = parseInt(seconds.textContent);
+            
+            s--;
+            
+            if (s < 0) {
+                s = 59;
+                m--;
                 
-                if (minutes < 0) {
-                    minutes = 59;
-                    hours--;
+                if (m < 0) {
+                    m = 59;
+                    h--;
                     
-                    if (hours < 0) {
-                        hours = 24;
-                        minutes = 0;
-                        seconds = 8;
+                    if (h < 0) {
+                        h = 24;
+                        m = 0;
+                        s = 8;
                     }
                 }
             }
             
-            // Update display
-            document.getElementById('timer-hours').textContent = hours < 10 ? '0' + hours : hours;
-            document.getElementById('timer-minutes').textContent = minutes < 10 ? '0' + minutes : minutes;
-            document.getElementById('timer-seconds').textContent = seconds < 10 ? '0' + seconds : seconds;
+            hours.textContent = h < 10 ? '0' + h : h;
+            minutes.textContent = m < 10 ? '0' + m : m;
+            seconds.textContent = s < 10 ? '0' + s : s;
         }
         
-        // Update every second
+        // Update timer every second
         setInterval(updateTimer, 1000);
-    })();
-</script>
+        
+        // Button ripple effect
+        document.querySelector('.main-btn').addEventListener('click', function(e) {
+            let x = e.clientX - e.target.getBoundingClientRect().left;
+            let y = e.clientY - e.target.getBoundingClientRect().top;
+            
+            let ripple = document.createElement('span');
+            ripple.style.left = x + 'px';
+            ripple.style.top = y + 'px';
+            ripple.classList.add('ripple-effect');
+            
+            this.appendChild(ripple);
+            
+            setTimeout(() => {
+                ripple.remove();
+            }, 600);
+        });
+        
+        // Add ripple CSS
+        let style = document.createElement('style');
+        style.textContent = `
+            .ripple-effect {
+                position: absolute;
+                border-radius: 50%;
+                background: rgba(255,255,255,0.7);
+                transform: scale(0);
+                animation: ripple-animation 0.6s linear;
+                width: 100px;
+                height: 100px;
+                margin-top: -50px;
+                margin-left: -50px;
+                pointer-events: none;
+            }
+            
+            @keyframes ripple-animation {
+                to {
+                    transform: scale(4);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
